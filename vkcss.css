@@ -1,0 +1,182 @@
+body{
+    background-color: rgb(226, 226, 226);
+    margin: 0px;
+    padding: 0;
+}
+.header{
+    background-color:  #4C75A3;
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+    display: flex;
+}
+.logo{
+    color: white;
+    padding-top: 13px;
+    font-size: 27px;
+    font-weight: 1000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 150px;
+}
+.poisk{
+    margin-top: 13px;
+    margin-left: 150px;
+    background-color:#355171;
+    border-radius: 20px;
+    height: 33px;
+    width: 170px;
+    padding-left: 15px;
+}
+.poisk1{
+    background-color:#355171;
+    width: 130px;
+    height: 31px;
+    color:#eceff1;
+    border: none;
+}
+ 
+.poisk1:focus{
+    outline: none;
+}
+
+.mainpart{
+    margin-top:30px;
+    display: flex;
+    margin-left: 150px;
+    color:#365374;
+}
+
+.menu{
+     margin-top: 10px;
+     color:rgb(69, 87, 147);
+}
+
+.friends{
+    background-color: rgb(255, 255, 255);
+    height: 890px;
+    width: 55%;
+    margin-left: 60px;
+}
+.allfriends{
+    display: flex;
+    border-bottom: 1px solid rgb(208, 208, 208);
+}
+
+.allfriends p{
+    margin-left: 25px;
+}
+.searchfriends{
+    background-color: #365374;
+    border: none;
+    height: 30px;
+    width: 130px;
+    text-align: center;
+    margin-top: 10px;
+    color:white;
+    margin-left: 330px;
+}
+
+.poiskdruga{
+    margin-top: 15px;
+    border-bottom: 1px solid rgb(208, 208, 208);
+    padding-bottom: 15px;
+}
+.poiskinput{
+    border: none;
+    width:300px;
+    margin-left: 20px;
+}
+
+.poiskinput:focus{
+    outline: none;
+}
+
+.infofriend{
+    display: flex;
+    border-bottom: 1px solid rgb(208, 208, 208);
+}
+
+.infofriend img{
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.infofriend h4,h5,a{
+    padding: 0px;
+    margin: 5px;
+}
+
+
+.friendsright{
+    margin-left: 14px;
+    width:18%;
+}
+
+.dopolnfriends{
+     padding-top: 4px;
+      background-color: white;
+      margin-bottom: 30px;
+      height: 220px;
+}
+.dopolnfriendsinside{
+    height: 27px;
+    margin: 0px;
+    width: 100%;
+    padding-top: 9px;
+}
+.dopolnfriendsinside p{
+    margin: 0px 0px 0px 15px;
+}
+.select{
+    margin-left: 11px;
+    margin-top: 7px;
+    border: none;
+    color:#365374;
+}
+.select:focus{
+     outline: none;
+}
+
+.dopolnfriends option{
+    color:#365374;
+}
+
+.dopolnfriendsinside:hover{
+    background-color: rgb(218, 218, 255);
+}
+
+.probablyfriends{
+    background-color: white;
+    color:#365374;
+
+}
+
+
+.infoprobably{
+    display: flex;
+    border-bottom: 1px solid rgb(208, 208, 208);
+}
+
+.infoprobably img{
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.infoprobably-inside-div{
+    padding-top: 2px; 
+    font-size: 14px;
+}
+.infoprobably-text-name{
+    color:rgb(71, 71, 176); 
+    margin-bottom: 1px;   
+}
+
+.infoprobably-text-num{
+    color: grey; 
+    margin-bottom: 5px; 
+    margin-top: 5px;
+}
+
+
+
+
